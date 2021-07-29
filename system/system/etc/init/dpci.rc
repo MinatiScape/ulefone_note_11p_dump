@@ -1,0 +1,4 @@
+service dpci /system/bin/dpci
+       user root
+       group root
+       class main
