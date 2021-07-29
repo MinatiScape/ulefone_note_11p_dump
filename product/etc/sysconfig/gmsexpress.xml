@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!--Track GMSExpress plus log-->
+    <feature name="com.google.android.feature.GMSEXPRESS_PLUS_BUILD" />
+    <feature name="com.google.android.contacts.feature.SIM_WRITE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET" />
+</config>
