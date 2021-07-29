@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: 请填写项目信息">
+  
+  
+  <algo>  
+    <overlay_adaptive_en cname="录入加严开关" default="false" desc="录入加严，提升 FRR。默认：false" format="boolean" useable="true">true</overlay_adaptive_en>
+    <enrolling_num_max cname="单模板录入最大次数" default="15" desc="大于10。默认: 15" format="array" options="10次|11次|12次|13次|14次|15次|16次|17次|18次|19次|20次" useable="true" values="10|11|12|13|14|15|16|17|18|19|20">18</enrolling_num_max>
+    <enrolling_samples cname="单模板录入次数" default="0" desc="不得大于单模板录入最大次数。默认: 动态计算" format="array" options="动态计算|12次|13次|14次|15次" useable="true" values="0|12|13|14|15">18</enrolling_samples>
+    <double_verify_retry cname="比对失败重试次数" default="1" desc="匹配失败重试次数。默认: 1次" format="array" options="0次|1次|2次|3次" useable="true" values="0|1|2|3">1</double_verify_retry>	
+  </algo>
+  
+  <customer>
+    <optimize_cpu cname="调节 CPU 频率" default="false" desc="匹配前调节 CPU 频率，加快解锁。默认：false" format="boolean" useable="true">true</optimize_cpu>
+  </customer> 
+  
+  <diagnosis>
+    <img_invciper_data cname="导出原始图像" default="false" desc="需依赖 导出指纹图像。默认：false" format="boolean" useable="true">false</img_invciper_data>
+    <data_dumping cname="导出指纹图像" default="false" desc="默认：false" format="boolean" useable="true">false</data_dumping>
+  </diagnosis>
+  
+ 
+</sunwave:Config>
